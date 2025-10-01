@@ -59,7 +59,7 @@ If you need to log into a site that requires cookies:
 3. Follow the prompts in the browser window and log into the site manually.
 
 4. Once finished, cookies will be saved to a JSON file (e.g., `cookies.json`).  
-   Place this file in the appropriate config directory for Armer.
+   You can then upload this cookies file using the cookies button found under a node.
 
 ---
 
@@ -71,10 +71,6 @@ If you need to log into a site that requires cookies:
 ```env
 SESSION_SECRET=superlongandrandomstring1234567890
 ```
-
-- Cookie files go in `config/cookies/`.
-
----
 
 ## License
 MIT
