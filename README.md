@@ -1,6 +1,6 @@
-# Armer
+# marionet
 
-Armer is a **self-hosted, Dockerized web scraping application** designed to run your scraping tasks reliably and securely.  
+Marionet is a **self-hosted, Dockerized web scraping application** designed to run your scraping tasks reliably and securely.  
 It includes support for authentication via cookies, task scheduling, and headless browser automation.
 
 ---
