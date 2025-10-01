@@ -14,7 +14,7 @@ It includes support for authentication via cookies, task scheduling, and headles
 
 ## Default Login
 
-When you first run Armer, you can log in with:
+When you first run Marionet, you can log in with:
 
 - **Username:** `test`
 - **Password:** `1234`
@@ -25,8 +25,8 @@ When you first run Armer, you can log in with:
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/yourusername/armer.git
-   cd armer
+   git clone https://github.com/eftpmc/marionet.git
+   cd marionet
    ```
 
 2. **Build and start with Docker Compose**:
@@ -59,7 +59,7 @@ If you need to log into a site that requires cookies:
 3. Follow the prompts in the browser window and log into the site manually.
 
 4. Once finished, cookies will be saved to a JSON file (e.g., `cookies.json`).  
-   Place this file in the appropriate config directory for Armer.
+   This file can then be uploaded via the cookies button found under each node.
 
 ---
 
@@ -71,10 +71,6 @@ If you need to log into a site that requires cookies:
 ```env
 SESSION_SECRET=superlongandrandomstring1234567890
 ```
-
-- Cookie files go in `config/cookies/`.
-
----
 
 ## License
 MIT
