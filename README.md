@@ -1,4 +1,4 @@
-# <img src="./logo.png" alt="Marionet Logo" width="80" style="vertical-align: middle;"/> Marionet
+# <img src="./blacklogo.png" alt="Marionet Logo" width="80" style="vertical-align: middle;"/> Marionet
 
 Marionet is a **self-hosted, Dockerized web scraping application** designed to run your scraping tasks reliably and securely.  
 It includes support for authentication via cookies, task scheduling, and headless browser automation.
