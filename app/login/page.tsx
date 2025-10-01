@@ -69,7 +69,14 @@ export default function Login() {
         </Card>
       </div>
 
-      <div className="hidden md:block bg-secondary-background"></div>
+      <div className="hidden md:flex flex-col items-center justify-center bg-secondary-background">
+        <img
+          src="/sleeping.gif"
+          alt="Login Illustration"
+          className="max-w-full h-auto object-contain p-8"
+        />
+        <p>nothing to see here</p>
+      </div>
     </div>
   );
 }
