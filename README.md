@@ -1,4 +1,6 @@
-# marionet
+# Marionet
+
+![Marionet Logo](./logo.png)
 
 Marionet is a **self-hosted, Dockerized web scraping application** designed to run your scraping tasks reliably and securely.  
 It includes support for authentication via cookies, task scheduling, and headless browser automation.
@@ -51,9 +53,9 @@ If you need to log into a site that requires cookies:
    npm install puppeteer
    ```
 
-2. Run the script to save your cookies:
+2. Run the script to save your cookies (with URL parameter):
    ```bash
-   node save-cookies.js
+   node save-cookies.js https://example.com/login
    ```
 
 3. Follow the prompts in the browser window and log into the site manually.
@@ -66,6 +68,12 @@ If you need to log into a site that requires cookies:
 ## Configuration
 
 - Environment variables can be set in `.env`.
+
+### Example `.env`
+```env
+SESSION_SECRET=superlongandrandomstring1234567890
+```
+
 - Cookie files go in `config/cookies/`.
 
 ---
