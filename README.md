@@ -25,8 +25,8 @@ When you first run Armer, you can log in with:
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/yourusername/armer.git
-   cd armer
+   git clone https://github.com/eftpmc/marionet.git
+   cd marionet
    ```
 
 2. **Build and start with Docker Compose**:
